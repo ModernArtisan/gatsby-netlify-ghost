@@ -2,8 +2,7 @@ name: Ghost Deploy Theme
 on:
   push:
     branches:
-      - master
-      - development
+      - master 
 jobs:
   deploy:
     runs-on: ubuntu-18.04
